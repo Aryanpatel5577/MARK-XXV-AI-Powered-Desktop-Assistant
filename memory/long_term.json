@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "name": {
+      "value": "Aryan",
+      "updated": "2026-08-04"
+    }
+  },
+  "preferences": {
+    "friend_favorite_food": {
+      "value": "Maggie",
+      "updated": "2026-07-31"
+    }
+  },
+  "projects": {},
+  "relationships": {
+    "friend_name": {
+      "value": "Suyog",
+      "updated": "2026-07-31"
+    },
+    "suyog_friend_name": {
+      "value": "Nandini",
+      "updated": "2026-07-31"
+    },
+    "suyog_nandini_relationship": {
+      "value": "classmates",
+      "updated": "2026-07-31"
+    }
+  },
+  "wishes": {},
+  "notes": {}
+}
