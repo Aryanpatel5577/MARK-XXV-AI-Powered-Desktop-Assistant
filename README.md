@@ -211,32 +211,6 @@ Security & API Key Management
   - Masked Key Entry: First-time UI configuration uses password-masked input
     fields.
 
-Project Structure
-
-jarvis-assistant/
-│
-├── main.py                   # Central entry point & Gemini Live audio engine
-├── model.py                  # PyQt6 HUD GUI & System Metrics monitor
-├── openrouter_client.py      # Fallback OpenRouter LLM & Vision client
-├── setup.py                  # Automated setup script
-├── requirements.txt          # Python library dependencies
-│
-├── config/                   # System configuration & API key storage
-│   └── api_keys.json (git ignored)
-│
-├── memory/                   # Long-term user memory storage
-│   └── memory_manager.py
-│
-└── actions/                  # Tool modules executed by JARVIS
-    ├── browser_control.py
-    ├── code_helper.py
-    ├── dev_agent.py
-    ├── file_processor.py
-    ├── flight_finder.py
-    ├── game_updater.py
-    ├── screen_processor.py
-    └── weather_report.py
-
 Technologies Used
 
   - Programming Language: Python 3.10+
@@ -254,20 +228,6 @@ Prerequisites
   - Operating System: Windows 10/11 (Recommended for full automation features)
   - Python Version: Python 3.10 or higher
   - Recommended: Virtual Environment (venv)
-
-Step-by-Step Setup
-
-1.  Clone the Repository:
-
-    git clone https://github.com/your-username/jarvis-assistant.git
-    cd jarvis-assistant
-
-2.  Run the Automated Setup Script:
-
-    python setup.py
-
-    This script installs dependencies from requirements.txt and downloads
-    required Playwright browser engines.
 
 Configuration
 
