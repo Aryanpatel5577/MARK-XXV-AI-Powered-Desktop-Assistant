@@ -55,34 +55,6 @@ Key Features
   - Game Manager: Specialized automation for Steam and Epic Games updates and
     installations.
 
-System Architecture
-
-                       ┌──────────────────────────────┐
-                       │   PyQt6 Sci-Fi HUD Engine    │
-                       │   (UI, Audio Waveforms, Logs)│
-                       └──────────────┬───────────────┘
-                                      │
-                                      ▼
-                       ┌──────────────────────────────┐
-                       │  JarvisLive Main Controller  │
-                       │      (Async Event Loop)      │
-                       └──────┬────────────────┬──────┘
-                              │                │
-            ┌─────────────────┴─┐            ┌─┴────────────────┐
-            │                   │            │                  │
-            ▼                   ▼            ▼                  ▼
-┌─────────────────────┐ ┌──────────────┐ ┌───────────────┐ ┌──────────────┐
-│  Mic / Speaker IO   │ │ Google Gemini│ │ System Metrics│ │ Tool Engine  │
-│(16kHz In / 24kHz Out│ │ Live Audio   │ │(CPU/RAM/GPU/  │ │(18 PC Tools &│
-│  + Gain Boost)      │ │   Session    │ │  Network/Temp)│ │ Automations) │
-└─────────────────────┘ └──────┬───────┘ └───────────────┘ └──────┬───────┘
-                               │                                  │
-                               ▼                                  ▼
-                        ┌──────────────┐                  ┌──────────────┐
-                        │ Long-Term    │                  │  OpenRouter  │
-                        │ Memory Bank  │                  │ Fallback Pool│
-                        └──────────────┘                  └──────────────┘
-
 How It Works
 
 1.  Listening: The microphone continuously records input. A software gain
