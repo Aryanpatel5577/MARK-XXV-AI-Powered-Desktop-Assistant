@@ -2,6 +2,22 @@
 💻🎥🧠 EXPLANATION OF MY CODE 💻🎥🧠 -------------->>>>>>>> ""
 
 
+
+## ⚡ Code Ownership & Architecture
+
+This project is built on a **Custom Core Engine + Integrated Tool Plugins** architecture.
+
+### 🛠️ Core Framework (Custom Built by Me)
+* **`main.py`** — Real-time voice engine, event loop & AI tool dispatcher.
+* **`model.py`** — PyQt6 sci-fi HUD interface, ARC reactor animations & PC performance monitor.
+* **`or_client.py`** — API client with automatic model switching & rate-limit failover.
+* **`setup.py`** — Automated environment setup & browser installer.
+
+### 🔌 Integrated Action Modules (Adapted Open-Source)
+* **`actions/`** — PC automation tools (web search, browser control, file tools, computer settings).
+* **`agent/`** — Multi-step task execution & planning system.
+* **`core/prompt.txt`** — Assistant personality & tool definitions.
+
 J.A.R.V.I.S. (MARK XXXIX) — AI Desktop Assistant
 
 An intelligent, real-time voice and automation desktop assistant inspired by
