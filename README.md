@@ -1,5 +1,7 @@
 💻🎥🧠 1st DEMO OF MY CODE 💻🎥🧠 -------------->>>>>>>> ""
 💻🎥🧠 2nd DEMO OF MY CODE 💻🎥🧠 -------------->>>>>>>> "https://youtu.be/uiffQT2e328?si=77nUf-3lIbSJqIvv"
+💻🎥🧠 1st EXPLANATION OF MY CODE 💻🎥🧠 ----------->>>>>>>>>> "https://youtu.be/nG-kjK5XQIc?si=T35dyb1qs0It1aF_"
+💻🎥🧠 2nd EXPLANATION OF MY CODE 💻🎥🧠 ----------->>>>>>>>>> "https://youtu.be/Za3nzPp9Ht0?si=eXEBhVX2i6RRk3oa"
 
 
 
